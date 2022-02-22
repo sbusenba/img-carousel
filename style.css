@@ -1,0 +1,56 @@
+.imgslider>img{
+    width:300px;
+    height:300px;
+    z-index: -1;
+    flex:0;
+    
+}
+.imgslider{
+    position:relative;
+    width:1800px;
+    height:300px;
+    display:flex;
+    transition-property: left;
+    transition-duration: 0.5s;
+    transition-timing-function:cubic-bezier(0.47, 0,1.2, 0.715)
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.flipper{
+    width:20px;
+    background-color: aliceblue;
+    border-radius:5px;
+    height: 300px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+.select{
+    border-radius:5px;
+    background-color: aliceblue;
+    margin-top:-15px;
+    height:10px;
+    width:10px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    
+}
+.container{
+    position:relative;
+    width:300px;
+    height: 300px;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    border-radius:5px;
+}
+.selectedindicator{
+    gap: 5px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
