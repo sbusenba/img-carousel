@@ -19,9 +19,9 @@ body{
     align-items:center;
     justify-content: center;
 }
-.flipper{
-    width:20px;
-    background-color: aliceblue;
+.right-flipper, .left-flipper{
+    width:1rem;
+    background-color: rgb(162, 211, 253);
     border-radius:5px;
     height: 300px;
     display:flex;
